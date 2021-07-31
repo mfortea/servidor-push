@@ -1,0 +1,28 @@
+{
+  "name": "servidor-push",
+  "version": "1.0.0",
+  "description": "Servidor de notificaciones push basado en NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No se han especificado tests\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "notification",
+    "push",
+    "nodejs"
+  ],
+  "author": "mfortea",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "koa": "2.11.0",
+    "koa-body": "4.1.1",
+    "koa-pug": "4.0.3",
+    "koa-router": "8.0.8",
+    "koa-session": "5.12.3",
+    "koa-static": "5.0.0",
+    "mariadb": "^2.5.4",
+    "web-push": "3.4.3"
+  }
+}

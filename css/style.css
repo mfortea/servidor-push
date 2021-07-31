@@ -1,0 +1,127 @@
+/* ESTILOS GLOBALES */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #414141 !important;
+  color: white !important;
+}
+
+a {
+  transition: 0.5s;
+}
+
+button, input, textarea, select {
+  outline: none;
+}
+
+a:hover {
+  text-decoration-line: none;
+  color: rgb(224, 224, 224) !important;
+  transition: 0.5s;
+}
+
+.form-control {
+  background-color: #1d1d1d;
+  border-color: #0286f1;
+  color: white;
+}
+
+.form-control:enabled {
+  background-color: #1d1d1d;
+  border-color: #0286f1;
+  transition: 0.5s;
+}
+
+.form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 350px) {
+  .boton {
+    width: 100% !important;
+  }
+}
+
+.boton {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #036ec5;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0266b8;
+}
+
+@media (hover: hover) {
+  .boton:hover {
+    border-color: #008cff;
+    background-color: #008cff;
+    -webkit-box-shadow: 0px 5px 15px 5px #3c3c3c;
+    -moz-box-shadow: 0px 5px 15px 5px #3c3c3c;
+    box-shadow: 0px 5px 15px 5px #3c3c3c;
+    transition: 0.5s;
+  }
+}
+
+.boton:active {
+  background-color: #102847 !important;
+  color: grey !important;
+}
+
+.boton:disabled {
+  background-color: grey !important;
+}
+
+.boton:disabled:hover {
+  box-shadow: unset;
+}
+
+/* Modo Claro */
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: rgb(0, 0, 0) !important;
+    background-color: #e9e9e9 !important;
+  }
+  nav {
+    background-color: rgb(226, 226, 226);
+  }
+  a {
+    color: black !important;
+  }
+  .boton:hover {
+    -webkit-box-shadow: 0px 5px 10px 3px #8fbcff;
+    -moz-box-shadow: 0px 5px 10px 3px #8fbcff;
+    box-shadow: 0px 5px 10px 3px #8fbcff;
+  }
+  nav li a:hover {
+    -webkit-box-shadow: 0px 5px 10px 3px #8fbcff;
+    -moz-box-shadow: 0px 5px 10px 3px #8fbcff;
+    box-shadow: 0px 5px 10px 3px #8fbcff;
+  }
+  .form-control {
+    border-color: #0286f1;
+    color: white !important;
+  }
+  .form-control:enabled {
+    border-color: #0286f1;
+    transition: 0.5s;
+    color: white !important;
+  }
+}
