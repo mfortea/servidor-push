@@ -181,7 +181,7 @@ _.post('/', async ctx => {
 <div id='id3' />
 
 ## Parte Cliente - Funcionamiento
-Dentro del cliente podemos distinguir dos partes: el script JS que se encuentra en la vista de la web (presumiblemente, la web a la que el cliente quiere suscribirse) que realiza distintas peticiones asíncronas, y el Service Worker del cliente, encargado de suscribir al cliente y mostrar las notificaciones.
+Dentro del cliente podemos distinguir dos partes: el script JS que se encuentra en la vista de la web (presumiblemente, la web a la que el cliente quiere suscribirse) que realiza distintas peticiones asíncronas, y el Service Worker del cliente, encargado de generar las notificaciones y las acciones sobre éstas.
 
 ### :large_blue_circle: Fichero JS del cliente (vista de la app)
 Aquí podemos distinguir varias peticiones asíncronas:
