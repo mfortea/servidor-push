@@ -36,7 +36,7 @@ En esta tabla podemos ver su compatibilidad con fecha de Junio de 2021.
 - Base de datos implementada con MariaDB
 - Estilo del frontend con Bootstrap 4
 
-### Módulos necesarias:
+### Módulos necesarios:
 - **koa, koa-router, koa-body**, koa-static: Framework web Koa
 - **koa-pug**: Motor de plantillas Pug
 - **web-push**: API para las notificaciones push
