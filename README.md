@@ -44,7 +44,7 @@ En esta tabla podemos ver su compatibilidad con fecha de Junio de 2021.
 - **mariadb**: Conector para la base de datos MariaDB
 
 ### Estructura del proyecto
-<img src="imagenes/raiz.png" alt="Imagen de la raíz del proyecto" width="300"/>
+<img src="imagenes/raiz.png" alt="Imagen de la raíz del proyecto" width="200"/>
 
 
 ### Variables de entorno utilizadas
