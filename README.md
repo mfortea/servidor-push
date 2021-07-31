@@ -62,6 +62,9 @@ USER_DB="USUARIO_DE_LA_BD"
 PASSWORD="TU_CONTRASEÑA"
 CONNECTION_LIMIT="NUMERO_DE_CONEXIONES_LÍMITE"
 EMAIL_VAPID="usuario@email.com"
+
+#Puerto de escucha de la app
+APP_PORT="4444"
 ```
 
 ---
