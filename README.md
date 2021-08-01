@@ -228,7 +228,7 @@ A través de esta función, se hace una petición al servidor, donde se procede 
 ```
 
 #### :small_blue_diamond: Persistencia
-Finalmente, mediante esta función, se guarda al cliente en la base de datos, realizando una petición POST al endpoint ```/suscribe```
+Finalmente, mediante esta función, se guarda al cliente en la base de datos, realizando una petición POST al endpoint ```/subscribe```
 
 ```javascript
         const sendToServer = async subData => {
