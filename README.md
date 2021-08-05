@@ -8,6 +8,7 @@ Servidor de subscripción de notificaciones web Push. Permite enviar notificacio
 1. [Introducción](#id1)
 2. [Parte Servidor - Funcionamiento](#id2)
 3. [Parte Cliente - Funcionamiento](#id3)
+4. [Notas del despliegue](#id4)
 
 
 
@@ -277,4 +278,16 @@ self.addEventListener('notificationclick', function (e) {
     e.notification.close();
     e.waitUntil(clients.openWindow(e.notification.data));
 });
+```
+
+---
+<div id='id4' />
+
+## Notas del despliegue
+Para un funcionamiento seguro y correcto del servicio, es necesario autorizar el control de acceso HTTP CORS entre nuestro servidor y el origen (nuestra app), la cuál va a realizar las peticiones. Esto es configurable a través del módulo ```@koa/cors```y la función siguiente:
+
+```javascript
+const cors = require('@koa/cors');
+[...]
+app.use(cors({ origin: "https://mi-app.com" }));
 ```
