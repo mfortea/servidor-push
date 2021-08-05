@@ -25,7 +25,7 @@ En esta tabla podemos ver su compatibilidad con fecha de Junio de 2021.
 | Android | :white_check_mark: |          -         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows | :white_check_mark: |          -         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |   iOS   |         :x:        |         :x:        |         :x:        |         :x:        |         :x:        |
-|  macOS  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|  macOS  | :white_check_mark: |         :x:        | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |  Linux  | :white_check_mark: |          -         |          -         | :white_check_mark: | :white_check_mark: |
 
 *Fuente: <a href="https://www.goodbarber.com/blog/web-push-notifications-demystified-a866/">GoodBarber</a>*
