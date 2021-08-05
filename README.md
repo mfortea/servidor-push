@@ -24,7 +24,7 @@ En esta tabla podemos ver su compatibilidad con fecha de Junio de 2021.
 |:-------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 | Android | :white_check_mark: |          -         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows | :white_check_mark: |          -         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-|   iOS   |         :x:        |         :x:        |         :x:        | :white_check_mark: |         :x:        |
+|   iOS   |         :x:        |         :x:        |         :x:        |         :x:        |         :x:        |
 |  macOS  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |  Linux  | :white_check_mark: |          -         |          -         | :white_check_mark: | :white_check_mark: |
 
