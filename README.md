@@ -38,7 +38,7 @@ En esta tabla podemos ver su compatibilidad con fecha de Junio de 2021.
 - Estilo del frontend con Bootstrap 4
 
 ### Módulos necesarios:
-- **koa, koa-router, koa-body**, koa-static: Framework web Koa
+- **koa, koa-router, koa-body**, **koa-static**: Framework web Koa
 - **koa-pug**: Motor de plantillas Pug
 - **web-push**: API para las notificaciones push
 - **dotenv**: Para el uso de variables globales
