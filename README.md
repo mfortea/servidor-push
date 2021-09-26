@@ -1,5 +1,5 @@
 # Servidor de notificaciones Web Push
-Servidor de subscripción de notificaciones web Push. Permite enviar notificaciones a aquellos clientes de nuestra web o app que se hayan suscrito al servicio de notificaciones.
+Servidor de suscripción de notificaciones web Push. Permite enviar notificaciones a aquellos clientes de nuestra web o app que se hayan suscrito al servicio de notificaciones.
 
 <img src="imagenes/notificacion-macos.png" alt="Ejemplo de notificación desde Chrome en macOS" width="300"/>
 
@@ -104,7 +104,7 @@ const _ = router();
 ```
 
 ####  :small_blue_diamond: GET (/)
-Simplemente renderiza el index.pug que se encuentra en la carpeta de vistas (views). En esta vista habrá un formulario, que más adelante se utilizará como forma gráfica de envío de las notificaciones a los usuarios subscritos.
+Simplemente renderiza el index.pug que se encuentra en la carpeta de vistas (views). En esta vista habrá un formulario, que más adelante se utilizará como forma gráfica de envío de las notificaciones a los usuarios suscritos.
 ```javascript
 // [...]
 _.get('/', async ctx => {
